@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="API Development" type="NodeJSConfigurationType" node-parameters="--require ts-node/register" path-to-js-file="src/main.ts" working-dir="$PROJECT_DIR$">
+    <envs>
+      <env name="PORT" value="1337" />
+      <env name="DB_HOST" value="ec2-52-30-161-203.eu-west-1.compute.amazonaws.com" />
+      <env name="DB_PORT" value="5432" />
+      <env name="DB_USERNAME" value="lwlqnvbihwdjlx" />
+      <env name="DB_PASSWORD" value="f9c6212dd7b229c08cf35e5dd2652dcb3b771f7a8be550f7fed1450d87000d08" />
+      <env name="DB_DIALECT" value="postgresql" />
+      <env name="DB_NAME" value="df85b8bjkdh2dd" />
+      <env name="JWT_KEY" value="random_secret_key" />
+      <env name="TOKEN_EXPIRATION" value="48h" />
+    </envs>
+    <method v="2" />
+  </configuration>
+</component>
